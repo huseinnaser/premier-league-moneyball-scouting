@@ -69,7 +69,7 @@ all_players$VMI <- all_players$TFS / log1p(all_players$market_value_m)
 # Calculates weighted scores across all metrics instantly
 d$TFS_raw <- as.numeric(as.matrix(d[, zcols]) %*% as.matrix(weights))
 
-📁 Data Sources & Tools
+##  📁 Data Sources & Tools
 Performance Data: FBref
 
 Financial Data: Transfermarkt
