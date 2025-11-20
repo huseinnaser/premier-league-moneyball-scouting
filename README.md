@@ -3,7 +3,7 @@
 ![Dashboard Banner](dashboard.png)
 > *A data-driven approach to identifying undervalued talent in the Premier League.*
 
-### 🔗 [View the Live Dashboard on Tableau Public](https://public.tableau.com/views/PremierLeague202425AData-DrivenScoutingDashboard/PlayerScouting?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+### 🔗 [View the Live Dashboard on Tableau Public] (https://public.tableau.com/views/PremierLeague202425AData-DrivenScoutingDashboard/PlayerScouting?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 ---
 
@@ -68,14 +68,13 @@ all_players$VMI <- all_players$TFS / log1p(all_players$market_value_m)
 # 2. Matrix Multiplication for Efficient Scoring
 # Calculates weighted scores across all metrics instantly
 d$TFS_raw <- as.numeric(as.matrix(d[, zcols]) %*% as.matrix(weights))
-
-#<img width="1349" height="899" alt="Player Scouting" src="https://github.com/user-attachments/assets/de915d23-df10-42b7-a822-d75384fa89f2" />
-  📁 Data Sources & Tools
-Performance Data: FBref
+```
+📁 Data Sources & Tools
+Performance Data: FBref (StatsBomb)
 
 Financial Data: Transfermarkt
 
-Languages: R (Tidyverse)
+Languages: R (Tidyverse, Janitor, Stringr)
 
 Visualization: Tableau Public
 
