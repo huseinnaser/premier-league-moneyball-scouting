@@ -1,6 +1,6 @@
 # ⚽ Premier League 2024/25: Moneyball Scouting Dashboard
 
-![Dashboard Banner][(https://github.com/user-attachments/assets/placeholder-image]
+![Dashboard Banner][(dashboard.png)
 > *A data-driven approach to identifying undervalued talent in the Premier League.*
 
 ### 🔗 [View the Live Dashboard on Tableau Public](https://public.tableau.com/views/PremierLeague202425AData-DrivenScoutingDashboard/PlayerScouting?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
