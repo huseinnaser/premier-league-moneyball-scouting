@@ -74,7 +74,7 @@ Performance Data: FBref
 
 Financial Data: Transfermarkt
 
-Languages: R (Tidyverse, Janitor, Stringr)
+Languages: R (Tidyverse)
 
 Visualization: Tableau Public
 
