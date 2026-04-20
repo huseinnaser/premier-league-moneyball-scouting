@@ -81,7 +81,5 @@ Visualization: Tableau Public
 🤝 Acknowledgments
 Data collection inspired by the worldfootballR library.
 
-Code optimization and debugging assisted by LLM tools (ChatGPT) to ensure efficient ETL processing.
-
 👤 Author
 Husein Naser
